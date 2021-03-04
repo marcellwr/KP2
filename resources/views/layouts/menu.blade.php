@@ -6,3 +6,11 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('pelanggans.index') }}"
+       class="nav-link {{ Request::is('pelanggans*') ? 'active' : '' }}">
+        <p>Pelanggans</p>
+    </a>
+</li>
+
+

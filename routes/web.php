@@ -27,3 +27,5 @@ Route::get('/home', [
 
 
 Route::resource('produks', App\Http\Controllers\produkController::class);
+
+Route::resource('pelanggans', App\Http\Controllers\pelangganController::class);
